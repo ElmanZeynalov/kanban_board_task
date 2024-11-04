@@ -1,0 +1,33 @@
+.addCardButton{
+    width: 50%;
+    background-color: blue;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.addCardButton:hover{
+    background-color: rgb(0, 0, 155);
+}
+
+
+
+.addListButton{
+    width: 50%;
+    background-color: green;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.addListButton:hover{
+    background-color: rgb(0, 80, 0);
+}

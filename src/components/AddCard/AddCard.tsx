@@ -1,14 +1,14 @@
 import React from 'react';
 import AddButton from '@/components/AddButton/AddButton';
-import styles from './addList.module.css';
+import styles from './addCard.module.css';
 
-function AddList() {
+function AddCard() {
 	return (
-		<div className={styles.addListContainer}>
-			<input type="text" placeholder="Add List" className={styles.input} />
+		<div className={styles.addCardContainer}>
+			<input type="text" placeholder="Add Card" className={styles.input} />
 			<AddButton />
 		</div>
 	);
 }
 
-export default AddList;
+export default AddCard;

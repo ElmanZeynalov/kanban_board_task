@@ -1,0 +1,18 @@
+.UndoRedo {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    color: white;
+    gap: 10px;
+}
+
+.buttonUndoRedo {
+    background-color: rgb(192, 192, 192);
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+
+}

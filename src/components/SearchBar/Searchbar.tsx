@@ -1,15 +1,12 @@
 import React from 'react';
+import styles from './searchbar.module.css';
 
-function Serachbar() {
+function Searchbar() {
 	return (
-		<div className="flex items-center gap-4 w-full">
-			<input
-				type="text"
-				placeholder="Search for a task"
-				className="w-full rounded-md border-none bg-gray-300 p-2 text-sm"
-			/>
+		<div className={styles.searchbarContainer}>
+			<input type="text" placeholder="Search for a task" className={styles.input} />
 		</div>
 	);
 }
 
-export default Serachbar;
+export default Searchbar;
